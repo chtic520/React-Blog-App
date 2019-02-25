@@ -1,0 +1,14 @@
+<div>
+  this is front/index.html
+  <br>
+  <a href="/foo">add</a>
+  <br>
+  <a href="/del">delete all</a>
+  <br>
+  <i><%= name %></i>
+  <ul>
+    <% blogs.map(blog => { %>
+      <li><%= blog.title %> - <%= blog.body %></li>
+    <% }) %>
+  </ul>
+</div>

@@ -1,0 +1,4 @@
+node_modules/
+bin/
+run_dev.bat
+npm-debug.log
